@@ -205,7 +205,8 @@ plt.tight_layout()
 plt.show()
 ```
 📊 **Visualization**
-![Monthly Trends](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/1.a%20Monthly%20Funded%20Amount.png)
+
+![Total Funded Amount by issue date](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/1.a%20Monthly%20Funded%20Amount.png)
 
 ### 1.a For Area chart Funded Amount:
 ```python
@@ -265,7 +266,8 @@ plt.show()
 ```
 
 📊 **Visualization**
-![Monthly Trends](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/1.b%20Total%20Amount%20received.png)
+
+![Total Amount Received by issue Date](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/1.b%20Total%20Amount%20received.png)
 
 ### 1.c Total Loan Applications by issue date
 ```python
@@ -293,7 +295,8 @@ plt.show()
 ```
 
 📊 **Visualization**
-![Monthly Trends](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/1.c%20Total%20Loan%20Applications.png)
+
+![Total Loan Applications by issue date](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/1.c%20Total%20Loan%20Applications.png)
 
 
 ### 🌍 2 Regional Analysis by State
@@ -320,7 +323,8 @@ plt.show()
 ```
 
 📊 **Visualization**
-![Monthly Trends](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/2.a%20Total%20Funed%20Amount%20by%20state.png)
+
+![Total Funded Amount by State](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/2.a%20Total%20Funed%20Amount%20by%20state.png)
 
 ### 2.b Total Received Amount by State
 ```python
@@ -342,7 +346,8 @@ plt.show()
 ```
 
 📊 **Visualization**
-![Monthly Trends](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/2.b%20Total%20Received%20Amount%20by%20State.png)
+
+![Total Received Amount by State](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/2.b%20Total%20Received%20Amount%20by%20State.png)
 
 ### 2.c Total Loan Applications by State
 ```python
@@ -363,7 +368,8 @@ plt.show()
 ```
 
 📊 **Visualization**
-![Monthly Trends](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/2.c%20Total%20Loan%20Applications%20by%20state.png)
+
+![Total Loan Applications by State](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/2.c%20Total%20Loan%20Applications%20by%20state.png)
 
 
 ### ⏳3 Loan Term Analysis
@@ -389,7 +395,8 @@ plt.show()
 ```
 
 📊 **Visualization**
-![Monthly Trends](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/3.a%20Term%20Wise%20Funded%20Amount.png)
+
+![Total Funded Amount by Loan term](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/3.a%20Term%20Wise%20Funded%20Amount.png)
 
 ### 3.b Total Received Amount by State
 ```python
@@ -409,9 +416,10 @@ plt.show
 ```
 
 📊 **Visualization**
-![Monthly Trends](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/3.b%20Termwise%20Received%20Amount.png)
 
-### 3.c Total Loan Applications
+![Total Received Amount by State](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/3.b%20Termwise%20Received%20Amount.png)
+
+### 3.c Total Loan Applications by state
 ```python
 Termwise_loan_applications = df.groupby('term')['id'].count()
 
@@ -428,7 +436,8 @@ plt.show()
 ```
 
 📊 **Visualization**
-![Monthly Trends](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/3.c%20Term%20wise%20Total%20Loan%20Applications.png)
+
+![Total Loan Applications by state](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/3.c%20Term%20wise%20Total%20Loan%20Applications.png)
 
 
 ### 🧑‍💼 4 Employment Length Analysis
@@ -455,7 +464,9 @@ plt.show()
 ```
 
 📊 **Visualization**
-![Monthly Trends](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/4.a%20Employment%20length%20wise%20Funded%20Amount.png)
+
+
+![Total Funded Amount by Employment length](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/4.a%20Employment%20length%20wise%20Funded%20Amount.png)
 
 ### 4.b Total Received Amount by employment length
 ```python
@@ -477,7 +488,9 @@ plt.show()
 ```
 
 📊 **Visualization**
-![Monthly Trends](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/4.b%20Employment%20length%20wise%20Received%20Amount.png)
+
+
+![Total Received Amount by employment length](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/4.b%20Employment%20length%20wise%20Received%20Amount.png)
 
 ### 4.c Total Loan Applications
 ```python
@@ -498,7 +511,8 @@ plt.show()
 ```
 
 📊 **Visualization**
-![Monthly Trends](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/4.c%20Employment%20lengthwise%20Total%20loan%20Applications.png)
+
+![Total Loan Applications](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/4.c%20Employment%20lengthwise%20Total%20loan%20Applications.png)
 
 ### 🎯5 Loan Purpose Breakdown
 
@@ -524,7 +538,8 @@ plt.show()
 ```
 
 📊 **Visualization**
-![Monthly Trends](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/5.a%20Total%20Funded%20Amount%20by%20Purpose.png)
+
+![Total Funded Amount by Purpose](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/5.a%20Total%20Funded%20Amount%20by%20Purpose.png)
 
 ### 5.b Total Received Amount by purpose
 ```python
@@ -545,7 +560,8 @@ plt.tight_layout()
 plt.show()
 ```
 📊 **Visualization**
-![Monthly Trends](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/5.B%20Total%20Received%20amount%20by%20purpose.png)
+
+![Total Received Amount by purpose](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/5.B%20Total%20Received%20amount%20by%20purpose.png)
 
 ### 5.c Total Loan Applications by purpose
 ```python
@@ -568,7 +584,8 @@ plt.show()
 ```
 
 📊 **Visualization**
-![Monthly Trends](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/5.c%20Tota%20Loans%20by%20Purpose.png)
+
+![Total Loan Applications by purpose](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/5.c%20Tota%20Loans%20by%20Purpose.png)
 
 
 ### 🏠 6 Home Ownership Analysis
@@ -597,7 +614,8 @@ fig.show()
 ```
 
 📊 **Visualization**
-![Monthly Trends](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/6.a%20Funded%20Ampunt%20by%20Home%20ownership.png)
+
+![Total Funded Amount by Home ownership](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/6.a%20Funded%20Ampunt%20by%20Home%20ownership.png)
 
 ### 6.b Total Received Amount by Home Ownership
 ```python
@@ -626,7 +644,8 @@ fig.show()
 ```
 
 📊 **Visualization**
-![Monthly Trends](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/6.b%20Received%20Amount%20by%20Home%20ownership.png)
+
+![Total Received Amount by Home Ownership](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/6.b%20Received%20Amount%20by%20Home%20ownership.png)
 
 ### 6.c Total Received Amount by Home ownership
 ```python
@@ -662,7 +681,8 @@ plt.show()
 ```
 
 📊 **Visualization**
-![Monthly Trends](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/6.c%20Total%20Loan%20applications%20by%20Home%20ownership.png)
+
+![Total Received Amount by Home ownership](https://github.com/HarivandhanaRavikanti/Banking_Loan_Analysis_Python/blob/main/6.c%20Total%20Loan%20applications%20by%20Home%20ownership.png)
 
 ## 🚀 Key Takeaways
 
